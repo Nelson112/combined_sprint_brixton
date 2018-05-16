@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,153 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
 </head>
+
 <body>
-     <nav>
-                <div class="container nav-wrapper">
-                  <a href="home.html" class="brand-logo">Logo</a>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="">Who we are</a></li>
-                    <li><a href="">Our Work</a></li>
-                    <li><a href="processes.html">How we do it</a></li>
-                    <li><a href="">Our Stories</a></li>
-                    <li><a href="">Let's Talk</a></li>
-                  </ul>
+    <nav>
+        <div class="container nav-wrapper">
+            <a href="home.html" class="brand-logo">Logo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="">Who we are</a>
+                </li>
+                <li>
+                    <a href="">Our Work</a>
+                </li>
+                <li>
+                    <a href="processes.html">How we do it</a>
+                </li>
+                <li>
+                    <a href="">Our Stories</a>
+                </li>
+                <li>
+                    <a href="">Let's Talk</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="w3-content w3-display-container" id="new-peeps">
+        <div class="mySlides" style="width:100%">
+            <div class="caption center-align">
+                <h3>Let's get started</h3>
+                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</h5>
+                <button class="btn waves-effect waves-light" onclick="plusDivs(1)" type="start" name="action">
+                    <i class="material-icons right">Start</i>
+                </button>
+            </div>
+        </div>
+        <div class="mySlides" style="width:100%">
+            <div class="caption center-align">
+                <h3>Contact Details</h3>
+                <div class="controller">
+                    <div class="container row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="name_surname" type="text" class="validate">
+                                    <label for="name_surname">Name and Surname</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="email" type="text" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="contact_no" type="tel" class="validate">
+                                    <label for="contact_no">Contact Number</label>
+                                </div>
+                            </div>
+                            <ul class="collapsible">
+                                <li>
+                                    <div class="collapsible-header">
+                                        <p class="center">How can we contact you?</p>
+                                    </div>
+                                    <div class="collapsible-body collection">
+                                        <p class="collection-item">
+                                            <label>
+                                                <input type="checkbox" />
+                                                <span>Email</span>
+                                            </label>
+                                        </p>
+                                        <p class="collection-item">
+                                            <label>
+                                                <input type="checkbox" />
+                                                <span>Contact Number</span>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
                 </div>
-            </nav>
-            
+                <button class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">
+                    <i class="material-icons right">prev</i>
+                </button>
+                <button class="btn waves-effect waves-light" onclick="plusDivs(1)" type="start" name="action">
+                    <i class="material-icons right">Next</i>
+                </button>
+            </div>
+        </div>
+        <div class="mySlides" style="width:100%">
+            <div class="caption center-align">
+                <h3>The important stuff</h3>
+                <div class="container row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="row">
+                                <div class="col s12">
+                                    What is the name of your project:
+                                    <div class="input-field inline">
+                                        <input id="project-name" type="email" class="validate">
+                                        <label for="project-name">Project name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="need-help-with" type="text" class="validate">
+                                    <label for="need-help-with">What do you need help with?</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <button class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">
+                    <i class="material-icons right">prev</i>
+                </button>
+                <a class="waves-effect waves-light btn">submit</a>
+            </div>
+        </div>
 
-        <!-- Modal Structure -->
-  <div id="modal1" class="modal bottom-sheet">
-        <div class="modal-content">
-          <h4>Modal Header</h4>
-          <p>A bunch of text</p>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-        </div>
     </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
-<script src="processes.js"></script>
-<script type="text/javascript">
-    $(window).on('load',function(){
-        var elems = document.querySelectorAll('.modal');
-        var instances = M.Modal.init(elems);
+    <div class="w3-content w3-display-container" id="inno-peeps">
+          <h2>this is the page for inno people</h2>
+        </div>
 
-    });
-</script>
+        <div id="startPage" class="caption center-align">
+                <h3>Let's get started</h3>
+                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</h5>
+                <button id="inno-people" class="btn waves-effect waves-light"  type="button" name="action">
+                    <i class="material-icons right">innogy People</i>
+                </button>
+                <button id="non-inno-people" class="btn waves-effect waves-light"  type="button" name="action">
+                        <i class="material-icons right">non innogy People</i>
+                </button>
+            </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script src="applications.js"></script>
+    <script>
+
+    </script>
+    </script>
 </body>
+
 </html>
