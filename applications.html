@@ -1,46 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Processes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Applications</title>
     <link rel="stylesheet" type="text/css" media="screen" href="processes.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
 </head>
 <body>
-        <nav>
+     <nav>
                 <div class="container nav-wrapper">
                   <a href="home.html" class="brand-logo">Logo</a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="">Who we are</a></li>
                     <li><a href="">Our Work</a></li>
+                    <li><a href="processes.html">How we do it</a></li>
                     <li><a href="">Our Stories</a></li>
-                    <li><a href="applications.html">Let's get Started</a></li>
                     <li><a href="">Let's Talk</a></li>
                   </ul>
                 </div>
             </nav>
-    <div id="fullpage">
-        <div id="section1" class="container section ">
-analysis
+            
+
+        <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
         </div>
-        <div id="section2" class="container section ">Some section 2</div>
-        <div id="section3" class="container section">Some section 3</div>
-        <div id="section4" class="container section">Some section 4</div>
-        <div id="section4" class="container section">Some section 5</div>
-        <div id="section4" class="container section">Some section 6</div>
-
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
     </div>
-    
-
-
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
 <script src="processes.js"></script>
+<script type="text/javascript">
+    $(window).on('load',function(){
+        var elems = document.querySelectorAll('.modal');
+        var instances = M.Modal.init(elems);
+
+    });
+</script>
 </body>
 </html>
