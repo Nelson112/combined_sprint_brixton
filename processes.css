@@ -37,9 +37,6 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-#inno-peeps {
-    display: none;
-}
 #new-peeps{
     display: none;
 }
