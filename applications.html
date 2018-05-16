@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="red">
         <div class="container nav-wrapper">
             <a href="home.html" class="brand-logo">Logo</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -35,20 +35,20 @@
             </ul>
         </div>
     </nav>
+    <div class="container">
     <br>
     <br>
     <div class="w3-content w3-display-container" id="new-peeps">
-        <div class="mySlides" style="width:100%">
+        <div class="mySlides">
             <div class="caption center-align">
-                <h3>Let's get started</h3>
-                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</h5>
+                <h2>Let's get started</h2>
+                <p class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
                 <button class="btn waves-effect waves-light" onclick="plusDivs(1)" type="start" name="action">
                     <i class="material-icons right">Start</i>
                 </button>
             </div>
         </div>
-        <div class="mySlides" style="width:100%">
+        <div class="mySlides">
             <div class="caption center-align">
                 <h3>Contact Details</h3>
                 <div class="controller">
@@ -102,7 +102,7 @@
                 </button>
             </div>
         </div>
-        <div class="mySlides" style="width:100%">
+        <div class="mySlides">
             <div class="caption center-align">
                 <h3>The important stuff</h3>
                 <div class="container row">
@@ -134,21 +134,19 @@
         </div>
 
     </div>
-    <div class="w3-content w3-display-container" id="inno-peeps">
+    <div class="w3-content w3-display-container background-image" id="inno-peeps">
           <h2>this is the page for inno people</h2>
         </div>
 
-        <div id="startPage" class="caption center-align">
-                <h3>Let's get started</h3>
-                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</h5>
-                <button id="inno-people" class="btn waves-effect waves-light"  type="button" name="action">
-                    <i class="material-icons right">innogy People</i>
-                </button>
-                <button id="non-inno-people" class="btn waves-effect waves-light"  type="button" name="action">
-                        <i class="material-icons right">non innogy People</i>
-                </button>
-            </div>
+        <div id="startPage" class="caption center-align intro-application">
+            <h2>Let's get started</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+
+            <button id="inno-people" class="waves-effect waves-light btn-large orange-button"  type="button" name="action">innogy People</button>
+
+            <button id="non-inno-people" class="waves-effect waves-light btn-large"  type="button" name="action">non-innogy People</button>
+
+        </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
@@ -158,6 +156,7 @@
 
     </script>
     </script>
+    </div>
 </body>
 
 </html>
