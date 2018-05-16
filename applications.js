@@ -7,11 +7,6 @@ $( "#non-inno-people" ).click(function() {
     document.getElementById("startPage").style.display = "none";
 
   });
-  $( "#inno-people" ).click(function() {
-    document.getElementById('inno-peeps').style.display = "block";
-    document.getElementById("startPage").style.display = "none";
-
-  });
 });
 
 var slideIndex = 1;

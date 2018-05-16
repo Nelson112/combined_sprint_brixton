@@ -37,11 +37,14 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+<<<<<<< HEAD
 
 #inno-peeps {
     display: none;
 }
 
+=======
+>>>>>>> acfed278423c85511478eb7a4e7280ea69a7997f
 #new-peeps{
     display: none;
 }
