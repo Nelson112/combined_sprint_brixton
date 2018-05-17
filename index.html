@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Garage</title>
     <link rel="stylesheet" type="text/css" media="screen" href="processes.css" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 </head>
 
@@ -31,6 +33,10 @@
             src: url("./font/innogyWEB-Medium.ttf");
         }
 
+        @font-face {
+            font-family: "innogyWebLight";
+            src: url("./font/innogyWEB-Light.ttf");
+        }
 
         html {
             font-family: "innogyWebMedium" !important;
@@ -54,24 +60,24 @@
         }
     </style>
 
-    <div class="full bg" id="form">
+    <div class="full bg intro-form" id="form">
         <div class="center">
             <h1 class="white-text">Let's get started</h1>
-            <p class="flow-text white-text">blah blah blah blah blah blah blah</p>
-            <a href="#modal1" class="btn orange modal-trigger">Innogy people</a>
-            <button class="btn blue">Non Innogy people</button>
+            <p class="flow-text white-text">We want to help you start your next adventure. Select one of the below buttons based on your affiliation with us and fill in all the juicy details on the pop-up form. We'll be sure to get back to you with in 5 working says to start the next step.</p>
+            <a href="#modal1" class="btn orange modal-trigger">innogy affiliated</a>
+            <a href="#modal1" class="btn blue modal-trigger">external client</a>
         </div>
     </div>
 
     <!-- Modal Structure -->
     <div id="modal1" class="modal valign-wrapper" style="height:80vh;justify-content:center;align-content:center;align-item:center;">
         <div class="modal-content ">
-            <div class="w3-content w3-display-container"> </div>
+
             <div class="mySlides" style="width:100%">
                 <div class="caption center-align" style="justify-content:center;align-content:center;align-item:center;">
                     <h3>Contact Details</h3>
                     <div class="controller">
-                        <div class=" row">
+                        <div class="row">
                             <form class="col s12">
                                 <div class="row">
                                     <div class="input-field col s12">
@@ -92,7 +98,8 @@
                                 <ul class="collapsible">
                                     <li>
                                         <div class="collapsible-header">
-                                            <p class="center">How can we contact you?</p>
+                                            How can we contact you?
+                                            <i class="large material-icons contact-deets">expand_more</i>
                                         </div>
                                         <div class="collapsible-body collection">
                                             <p class="collection-item">
@@ -113,23 +120,23 @@
                             </form>
                         </div>
                     </div>
-                    <a class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">
-                        <i class="material-icons right">prev</i>
+                    <a class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">previous
                     </a>
                     <a class="btn waves-effect waves-light" onclick="plusDivs(1)" type="start" name="action">
-                        <i class="material-icons right">Next</i>
+                        next
                     </a>
                 </div>
             </div>
             <div class="mySlides" style="width:100%">
                 <div class="caption center-align" style="justify-content:center;align-content:center;align-item:center;">
                     <h3>The nitty-gritty stuff</h3>
-                    <div class="container row">
+                    <div class="row">
                         <div class="row">
                             <ul class="collapsible">
                                 <li>
                                     <div class="collapsible-header">
-                                        <p class="center">Which Innogy-related company do you work in?</p>
+                                    Which innogy-related company do you work in?
+                                    <i class="large material-icons nitty">expand_more</i>
                                     </div>
                                     <div class="collapsible-body collection">
                                         <p class="collection-item">
@@ -158,7 +165,8 @@
                             <ul class="collapsible">
                                 <li>
                                     <div class="collapsible-header">
-                                        <p class="center">Which department do you work in??</p>
+                                        Which department do you work in?
+                                        <i class="large material-icons nitty-gritty">expand_more</i>
                                     </div>
                                     <div class="collapsible-body collection">
                                         <p class="collection-item">
@@ -184,12 +192,8 @@
                             </ul>
                         </div>
                     </div>
-                    <a class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">
-                        <i class="material-icons right">prev</i>
-                    </a>
-                    <a class="btn waves-effect waves-light" onclick="plusDivs(1)" type="start" name="action">
-                        <i class="material-icons right">next</i>
-                    </a>
+                    <a class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">previous</a>
+                    <a class="btn waves-effect waves-light" onclick="plusDivs(1)" type="start" name="action">next</a>
                 </div>
             </div>
             <div class="mySlides" style="width:100%">
@@ -216,10 +220,8 @@
                             </div>
                         </form>
                     </div>
-                    <a class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">
-                        <i class="material-icons right">prev</i>
-                    </a>
-                    <a onclick="plusDivs(1)" class="waves-effect waves-light btn">submit</a>
+                    <a class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">previous</a>
+                    <a onclick="plusDivs(1)" class="green waves-effect waves-light btn">submit</a>
                 </div>
             </div>
             <div class="mySlides" style="width:100%">
@@ -229,10 +231,11 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="modal-footer">
+        <div class="modal-footer">
         <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
     </div>
+    </div>
+    
     </div>
 
 </body>
