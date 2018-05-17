@@ -267,3 +267,36 @@ margin-top: 12%;
 .padding-left {
     padding-left: 50px;
 }
+
+@font-face {
+    font-family: "innogyWebMedium";
+    src:  url("./font/innogyWEB-Medium.ttf");
+}
+
+@font-face {
+    font-family: "innogyWebLight";
+    src:  url("./font/innogyWEB-Light.ttf");
+}
+
+h2 {
+    font-family: "innogyWebMedium" !important;
+}
+
+.analysis-header{
+    color: #009ba5;
+}
+.research-header{
+    color: #F59B00;
+}
+.wireframes-header{
+    color: #00aae1;
+}
+.design-header{
+    color: #F59B00;
+}
+.develop-header{
+    color: #EB4B0A;
+}
+.test-header{
+    color: #64B42D;
+}
