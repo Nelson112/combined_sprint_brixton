@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 $('.collapsible').collapsible();
 $('.modal').modal();
+$('.modal2').modal();
 
 });
 var slideIndex = 1;
