@@ -39,6 +39,6 @@ $(document).ready(function () {
                     .always(function () {
                             console.log("finished");
                     });
-    
+    //REMOVED ALLERT FINISHED
     
     });
