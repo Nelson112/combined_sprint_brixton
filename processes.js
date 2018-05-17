@@ -37,8 +37,8 @@ $(document).ready(function () {
                             alert("error");
                     })
                     .always(function () {
-                            alert("finished");
+                            console.log("finished");
                     });
-    
+    //REMOVED ALLERT FINISHED
     
     });
