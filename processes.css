@@ -5,3 +5,51 @@
 #new-peeps{
     display: none;
 }
+
+/* form page */
+
+
+.intro-form h2 {
+	font-size: 70px;
+	color: white;
+}
+#startPage
+.background-image {
+	background-image: url("img/get-started.jpg");
+	z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.letsgetstarted {
+	background-image: url(img/get-started.jpg);
+	width: 100vw;
+	height: 100vh;
+}*/
+
+/* buttons on start of form page */
+.intro-form a {
+	text-transform: none;
+/*	padding: 5px;*/
+    font-size: 20px;
+    font-weight: 200;
+    background: #009ba5;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    margin: 60px 20px 0 20px;
+    cursor: pointer;
+    min-width: 190px;
+    text-align: center;
+}
+
+.intro-form a:hover {
+	background: #005f69;
+}
+
+.intro-form p {
+	color: #000;
+	margin: 30px 0 0 0;
+	padding: 0 20%;
+}

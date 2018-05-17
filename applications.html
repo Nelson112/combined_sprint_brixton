@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Applications</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="processes.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Applications</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="processes.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    </head>
 
-</head>
+    <body>
+          <div class="navbar-fixed">
+              <nav class="grey darken-2">
+                <div class="nav-wrapper">
+                  <div class='container'>
+                    <a href="#" class="brand-logo">Logo</a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">JavaScript</a></li>
+                      </ul>
+                  </div>
+                </div>
+              </nav>
+          </div>
+            <style>
+                .full { 
+                    padding-top: 0px;
+                  height: calc(100vh - 60px) !important;
+                  display: flex;
+                  align-content: center;
+                  align-items: center;
+                  justify-content: center;
+                }
+                .bg {
+                    background: url(./img/get-started.jpg) no-repeat center center fixed; 
+                  -webkit-background-size: cover;
+                  -moz-background-size: cover;
+                  -o-background-size: cover;
+                  background-size: cover;
+                }            
+            </style>
 
-<body>
-    <nav class="black">
-        <div class="container nav-wrapper">
-            <a href="home.html" class="brand-logo">Garage</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li>
-                    <a href="">Who we are</a>
-                </li>
-                <li>
-                    <a href="">Our Work</a>
-                </li>
-                <li>
-                    <a href="processes.html">How we do it</a>
-                </li>
-                <li>
-                    <a href="">Our Stories</a>
-                </li>
-                <li>
-                    <a href="">Let's Talk</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-    <br>
-    <br>
-    <div class="w3-content w3-display-container" id="new-peeps">
-        <div class="mySlides">
-            <div class="caption center-align">
-                <h2>Let's get started</h2>
-                <p class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                <button class="btn waves-effect waves-light" onclick="plusDivs(1)" type="start" name="action">
-                    <i class="material-icons right">Start</i>
-                </button>
-            </div>
-        </div>
-        <div class="mySlides">
-            <div class="caption center-align">
+          <div class="full bg">
+              <div class="center">
+                  <h1 class="white-text">Let's get started</h1>
+                  <p class="flow-text white-text">blah blah blah blah blah blah blah</p>
+                  <a href="#formInno" class="btn orange">Innogy people</a>
+                  <button class="btn blue">Non Innogy people</button>
+              </div>
+          </div>
+
+          <div id="formInno" class="full">
+              <div class="caption center-align">
                 <h3>Contact Details</h3>
                 <div class="controller">
-                    <div class="container row">
+                    <div class=" row">
                         <form class="col s12">
                             <div class="row">
                                 <div class="input-field col s12">
@@ -101,57 +105,12 @@
                     <i class="material-icons right">Next</i>
                 </button>
             </div>
-        </div>
-        <div class="mySlides">
-            <div class="caption center-align">
-                <h3>The important stuff</h3>
-                <div class="container row">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="row">
-                                <div class="col s12">
-                                    What is the name of your project:
-                                    <div class="input-field inline">
-                                        <input id="project-name" type="email" class="validate">
-                                        <label for="project-name">Project name</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="need-help-with" type="text" class="validate">
-                                    <label for="need-help-with">What do you need help with?</label>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <button class="btn waves-effect waves-light" onclick="plusDivs(-1)" type="start" name="action">
-                    <i class="material-icons right">prev</i>
-                </button>
-                <a class="waves-effect waves-light btn">submit</a>
-            </div>
-        </div>
+          </div>
 
-    </div>
-
-        <div id="startPage" class="caption center-align">
-                <h3>Let's get started</h3>
-                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</h5>
-                    <a  class="waves-effect waves-light btn" href="applications-for-inno.html" >innogy people</a>
-                    <a id="non-inno-people"  class="waves-effect waves-light btn">innogy people</a>
-            </div>
+    </body>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
-    <script src="applications.js"></script>
-    <script>
-
-    </script>
-    </script>
-    </div>
 </body>
 
 </html>
