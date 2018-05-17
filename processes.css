@@ -249,3 +249,15 @@
         margin-top: 80px
     }
 }
+#fullpage{
+margin-top: 12%;
+}
+
+.section-wrapper {
+    height: 300px;
+    width: auto;
+}
+
+.padding-left {
+    padding-left: 50px;
+}
