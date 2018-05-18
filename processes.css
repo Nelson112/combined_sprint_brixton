@@ -8,6 +8,11 @@
     transition: all .3s ease-in-out 0ms
 }
 
+body {
+    font-weight: bold;
+    font-family: "innogyWebMedium";
+}
+
 .header,
 .header__beam {
     height: 50px;
@@ -252,10 +257,11 @@
 }
 
 
-a:hover {
+.navigation__list__item a:hover {
     background-color: transparent !important;
     color:  black; 
 }
+
 #fullpage{
 margin-top: 12%;
 }
@@ -296,7 +302,7 @@ h2 {
     color: rgb(245, 180, 0);
 }
 .develop-header{
-    color: #EB4B0A;
+    color: #e60054;
 }
 .test-header{
     color: #64B42D;

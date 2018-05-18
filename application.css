@@ -9,24 +9,17 @@
 /* form page */
 #startPage
 .background-image {
-background-image: url("img/get-started.jpg");
-z-index: 1;
+    background-image: url("img/get-started.jpg");
+    z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/*.letsgetstarted {
-background-image: url(img/get-started.jpg);
-width: 100vw;
-height: 100vh;
-}*/
-
-
 /* buttons on start of form page */
-.intro-form a {
-text-transform: none;
-/* padding: 5px;*/
+.intro-form .btn {
+    text-transform: none;
+/*  padding: 5px;*/
     font-size: 20px;
     font-weight: 200;
     background: #009ba5;
@@ -39,8 +32,8 @@ text-transform: none;
     text-align: center;
 }
 
-.intro-form a:hover {
-background: #005f69;
+.intro-form .btn:hover {
+    background: #005f69;
 }
 
 .intro-form h2 {
@@ -51,9 +44,9 @@ background: #005f69;
 .intro-form p {
     font-size: 18px;
     font-family: "innogyWebLight", "innogyWebMedium";
-color: #000;
-margin: 30px 5%;
-padding: 0 20%;
+    color: #000;
+    margin: 30px 5%;
+    padding: 0 20%;
 }
 
 .mySlides a, .full a {
@@ -72,6 +65,15 @@ padding: 0 20%;
     margin-top: 60px;
     cursor: pointer;
     min-width: 210px;
+}
+
+.mySlides .btn:hover {
+    background: #005f69 !important;
+    color: white;
+}
+
+.green .submit-green a:hover {
+    background: #00875A !important;
 }
 
 #modal1 a {
@@ -93,3 +95,19 @@ padding: 0 20%;
 .contact-deets {
     padding: 0 0 0 73%;
 }
+
+.form-text {
+    font-family: "innogyWebLight", "innogyWebMedium";
+    padding: 10px 55px;
+    font-size: 18px;
+}
+
+.padding-fix {
+    margin: 120px 0 0 0 !important;
+}
+
+
+
+
+
+
